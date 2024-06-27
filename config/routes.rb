@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
   root to: "flats#index"
 
+  # Create a route for flats and use as: to create prefix
   get "flats/:id", to: "flats#show", as: "flat"
 
 

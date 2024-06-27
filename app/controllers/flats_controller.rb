@@ -2,7 +2,7 @@ require "open-uri"
 
 class FlatsController < ApplicationController
   before_action :set_flats
--
+
   def index
   end
 
